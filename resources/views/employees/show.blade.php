@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
-        <h2>{{ __('messages.employee') }}</h2>
+        <h2>{{ __('messages.view_employee') }}</h2>
             {!! Form::open() !!}
                 <div class="form-group">
                     {!! Form::label('first_name', __('messages.first_name')) !!}

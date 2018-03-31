@@ -3,7 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-11">
+        <div class="col-md-10">
+            <h2>{{ __('messages.view_company') }}</h2>
             {!! Form::open() !!}                
                 <div class="form-group">
                     {!! Form::label('name', __('messages.name')) !!}

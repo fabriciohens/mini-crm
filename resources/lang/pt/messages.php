@@ -50,6 +50,8 @@ return [
     'invalid_phone_with_country' => 'O campo do telefone contém um número inválido. Verifique se o país está de acordo com o número de telefone especificado.',
     'logout' => 'Sair',
     'login' => 'Entrar',
+    'view_employee' => 'Visualizar Funcionário',
+    'view_company' => 'Visualizar Empresa',
 
     'empty_table'=> 'Não há dados disponíveis na tabela',
     'info'=> 'Mostrando página _PAGE_ de _PAGES_',

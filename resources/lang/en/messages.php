@@ -50,6 +50,8 @@ return [
     'invalid_phone_with_country' => 'The phone field contains an invalid number. Check if the country is matching the specified phone number.',
     'logout' => 'Logout',
     'login' => 'Login',
+    'view_employee' => 'View Employee',
+    'view_company' => 'View Company',
 
     'empty_table'=> 'No data available in table',
     'info'=> 'Showing page _PAGE_ of _PAGES_',
