@@ -57,4 +57,7 @@ To install Admin-LTE I had to do:
 
 ###### Pagination
 
-I implemented but removed Laravel's pagination feature since DataTables already provides pagination feature.
+
+Requirement: **Use Laravel’s pagination for showing Companies/Employees list, 10 entries per page**
+
+I implemented but removed Laravel's pagination feature since DataTables already provides pagination.
