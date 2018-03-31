@@ -15,7 +15,7 @@ Mini-CRM - A small system to manage companies and their employees.
 - [Composer](https://getcomposer.org/)
 - Windows 10 (my pc XD)
 
-## Some libraries/packges used
+## Some libraries/packages used
 
 - [Propaganistas/Laravel-Phone](https://github.com/Propaganistas/Laravel-Phone) - Phone number functionality for Laravel 5.
 - [Propaganistas/Laravel-Intl](https://github.com/Propaganistas/Laravel-Intl) - Easy to use internationalization/localization functions for Laravel 5.
@@ -42,9 +42,9 @@ Mini-CRM - A small system to manage companies and their employees.
 
 ## Observations
 
-###### *storage/app/public*  accessible from *public*
+###### Make *storage/app/public*  accessible from *public*
 
-To acomplish the requirement **store companies logos in storage/app/public folder and make them accessible from public** it was used the following command to create a symbolic link: `php artisan storage:link` (it was necessary to start the Homestead box with a command prompt running as admin)
+To acomplish the requirement '**store companies logos in storage/app/public folder and make them accessible from public**' it was used the following command to create a symbolic link: `php artisan storage:link` (it was necessary to start the Homestead box with a command prompt running as admin)
 
 ###### Admin-LTE
 
@@ -54,3 +54,7 @@ To install Admin-LTE I had to do:
 - `npm install`
 - change line 49 in node_modules/adminlte/dist/css/AdminLTE.css to: `background: url('~/../img/boxed-bg.jpg') repeat fixed;`
 - `npm run dev`
+
+###### Pagination
+
+I implemented but removed Laravel's pagination feature since DataTables already provides pagination feature.
