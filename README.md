@@ -55,9 +55,13 @@ To install Admin-LTE I had to do:
 - change line 49 in node_modules/adminlte/dist/css/AdminLTE.css to: `background: url('~/../img/boxed-bg.jpg') repeat fixed;`
 - `npm run dev`
 
-###### Pagination
+###### Employees table
 
+I added a phone country field to the employees table to help with validation and give the user more options of countries.
+
+###### Pagination
 
 Requirement: **Use Laravel’s pagination for showing Companies/Employees list, 10 entries per page**
 
 I implemented but removed Laravel's pagination feature since DataTables already provides pagination.
+
