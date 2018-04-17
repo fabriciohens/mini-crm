@@ -42,10 +42,6 @@ Mini-CRM - A small system to manage companies and their employees.
 
 ## Observations
 
-###### Make *storage/app/public*  accessible from *public*
-
-To acomplish the requirement '**store companies logos in storage/app/public folder and make them accessible from public**' it was used the following command to create a symbolic link: `php artisan storage:link` (it was necessary to start the Homestead box with a command prompt running as admin)
-
 ###### Admin-LTE
 
 To install Admin-LTE I had to do:
@@ -54,14 +50,4 @@ To install Admin-LTE I had to do:
 - `npm install`
 - change line 49 in node_modules/adminlte/dist/css/AdminLTE.css to: `background: url('~/../img/boxed-bg.jpg') repeat fixed;`
 - `npm run dev`
-
-###### Employees table
-
-I added a phone country field to the employees table to help with validation and give the user more options of countries.
-
-###### Pagination
-
-Requirement: **Use Laravel’s pagination for showing Companies/Employees list, 10 entries per page**
-
-I implemented but removed Laravel's pagination feature since DataTables already provides pagination.
 
