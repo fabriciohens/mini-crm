@@ -50,4 +50,3 @@ To install Admin-LTE I had to do:
 - `npm install`
 - change line 49 in node_modules/adminlte/dist/css/AdminLTE.css to: `background: url('~/../img/boxed-bg.jpg') repeat fixed;`
 - `npm run dev`
-
